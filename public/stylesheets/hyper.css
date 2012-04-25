@@ -32,6 +32,11 @@ div.blocktext {
 	text-align: left;
 	}
 
+div.header {
+  width: 100%;
+  background: #444;	
+}
+
 div.footer {
 	text-align:left;
 	margin-left: auto;
