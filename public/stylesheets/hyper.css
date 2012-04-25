@@ -10,7 +10,9 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, {
 
 body {
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
-  color: #666666	
+  color: #666666;
+  background-color:#efffd1;
+	
 }
 
 article, aside, dialog, figure, footer, header, hgroup, nav, section {
