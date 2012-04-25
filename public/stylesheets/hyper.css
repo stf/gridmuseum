@@ -11,12 +11,17 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, {
 body {
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
   color: #666666;
-  background-color:#ffffd1;
-	
-}
+  background-color:#cef8ff;
+  line-height: 1.5; }	
 
-body {
-  line-height: 1.5; }
+p.blocktext {
+    margin-left: auto;
+    margin-right: auto;
+    width: 46em
+}
+h2 {
+  font-color: #fa9007;	
+}
 
 img.logo {
     display: block;
