@@ -6,7 +6,8 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, {
   font-style: inherit;
   font-size: 100%;
   font-family: inherit;
-  vertical-align: baseline; }
+  vertical-align: baseline; 
+}
 
 body {
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
@@ -31,36 +32,58 @@ button {
 }
 
 img.logo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto }
+  display: block;
+  margin-left: auto;
+  margin-right: auto }
 
 img.logo_sm {
-    display: block;
-    margin-right: auto 
+  display: block;
+  margin-right: auto 
+}
+
+div.header {
+  background-color:#FFF;
+  display: block;
+  width: 50em;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+div.background {
+  background-color:#FFF;
+  display: block;
+  width: 50em;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 div.blocktext {
-	margin-left: auto;
-	margin-right: auto;
-	width: 50em;
-	text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50em;
+  text-align: left;
 	}
 
 div.header {
   width: 100%;
   background: #444;	
+  margin-left: auto;
+  margin-right: auto;
+  width: 50em;
 }
 
 div.footer {
-	text-align:left;
-	margin-left: auto;
-	margin-right: auto;
-	width: 100%;
-	background: #444;
-	color: white;
-	font-size: 8px;
-	font-family: Verdana, Arial, sans-serif;
-	padding:2px;
-	}	
-}
+  text-align:right;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  background: #444;
+  color: white;
+  font-size: 8px;
+  font-family: Verdana, Arial, sans-serif;
+  padding: 5px;
+}	
