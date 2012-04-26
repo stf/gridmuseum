@@ -12,12 +12,22 @@ body {
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
   color: #666666;
   background-color:#ececec;
+  line-height: 1.5; 
+  font-size: 90%;
+}	
 
-  line-height: 1.5; }	
+h1 {
+  font-size: 20px;
+  margin-top: 50px;	
+}
 
 h2 {
   color: #fa9007;
-  padding-top:5px;	
+  padding-top:5px;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;	
+}
+
+button {
 }
 
 img.logo {
@@ -49,7 +59,8 @@ div.footer {
 	width: 100%;
 	background: #444;
 	color: white;
-	font-size: 11px;
+	font-size: 8px;
 	font-family: Verdana, Arial, sans-serif;
+	padding:2px;
 	}	
 }
