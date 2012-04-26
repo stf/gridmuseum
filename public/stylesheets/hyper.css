@@ -31,10 +31,22 @@ h2 {
 button {
 }
 
+ul {
+  list-style-type:none;
+  margin:0;
+  padding:0;
+}
+
+li
+{
+  display:inline;
+  margin-right: 10px;
+}
 img.logo {
   display: block;
   margin-left: auto;
-  margin-right: auto }
+  margin-right: auto 
+}
 
 img.logo_sm {
   display: block;
@@ -46,7 +58,12 @@ div.header {
   width: 50em;
   margin-left: auto;
   margin-right: auto;
-  color: #000;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+div.header a {
+  color: white;
+  text-decoration: none;
 }
 
 div.background {
@@ -57,6 +74,7 @@ div.background {
   margin-right: auto;
   padding-left: 40px;
   padding-right: 40px;
+  padding-bottom: 20px;
 
 }
 
