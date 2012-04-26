@@ -42,13 +42,11 @@ img.logo_sm {
 }
 
 div.header {
-  background-color:#FFF;
-  display: block;
+  background-color:#444;
   width: 50em;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 20px;
-  padding-right: 20px;
+  color: #000;
 }
 
 div.background {
@@ -57,8 +55,9 @@ div.background {
   width: 50em;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+
 }
 
 div.blocktext {
