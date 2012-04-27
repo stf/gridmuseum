@@ -74,7 +74,12 @@ div.header a{
   font-size: 15px;
   text-decoration: none;
   font-style: bold;
-  padding-top: 5px;
+}
+div.header a:hover;{
+  color: #444;
+  font-size: 15px;
+  text-decoration: underline;
+  font-style: bold;
 }
 
 div.background {
