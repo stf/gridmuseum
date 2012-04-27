@@ -42,6 +42,11 @@ li
   display:inline;
   margin-right: 10px;
 }
+
+ul a:hover { 
+  text-decoration: underline;
+}
+
 img.logo {
   display: block;
   margin-left: auto;
