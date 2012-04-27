@@ -60,6 +60,7 @@ img.logo {
 img.logo_sm {
   display: block;
   margin-right: auto 
+
 }
 
 div.header {
@@ -69,7 +70,6 @@ div.header {
   margin-right: auto;
   padding-left: 40px;
   padding-right: 40px;
-  display:block;
 }
 
 div.header a {
@@ -94,14 +94,6 @@ div.blocktext {
   margin-right: auto;
   width: 50em;
   text-align: left;
-	}
-
-div.header {
-  width: 100%;
-  background: #444;	
-  margin-left: auto;
-  margin-right: auto;
-  width: 50em;
 }
 
 div.footer {
