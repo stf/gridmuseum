@@ -44,7 +44,8 @@ ul {
 li
 {
   display:inline;
-  margin-right: 10px;
+  margin: 10px;
+  font-size: 11px;
 }
 
 ul a:hover { 
@@ -69,10 +70,15 @@ div.header {
   margin-right: auto;
   padding-left: 40px;
   padding-right: 40px;
+  display:block;
 }
+
 div.header a {
   color: white;
   text-decoration: none;
+}
+a.hover {	
+  text-decoration: underline;
 }
 
 div.background {
