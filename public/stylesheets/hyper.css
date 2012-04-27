@@ -47,8 +47,7 @@ li
   margin: 10px;
   font-size: 11px;
 }
-
-ul a:hover { 
+a.hover {	
   text-decoration: underline;
 }
 
@@ -76,9 +75,6 @@ div.header {
 div.header a {
   color: white;
   text-decoration: none;
-}
-a.hover {	
-  text-decoration: underline;
 }
 
 div.background {
