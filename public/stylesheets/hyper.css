@@ -69,7 +69,7 @@ div#background {
   margin-right: auto;
   padding-left: 40px;
   padding-right: 40px;
-  padding-bottom: 30px;  /* must be same height as the footer */
+  padding-bottom: 20px;  /* must be same height as the footer */
 
 }
 div#header {
@@ -106,8 +106,8 @@ div#footer {
   font-family: Verdana, Arial, sans-serif;
   position: relative;	
   padding: 5px;
-  margin-top: -30px; /* negative value of footer height */
-  height: 30px;
+  margin-top: -20px; /* negative value of footer height */
+  height: 20px;
   clear:both;
 }
 img.picture {
