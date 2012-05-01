@@ -50,7 +50,7 @@ li
 a.hover {	
   text-decoration: underline;
 }
-img.logo {
+img.picture {
   display: block;
   margin-left: auto;
   margin-right: auto 
@@ -60,25 +60,30 @@ img.logo_sm {
   margin-right: auto 
 
 }
-div.header a{
-  color: #444;
-  font-size: 15px;
-  text-decoration: none;
-  font-style: bold;
-}
-div.header a:hover;{
-  color: #444;
-  font-size: 15px;
-  text-decoration: underline;
-  font-style: bold;
-}
-div.wrapper {
+div#wrapper {
   min-height: 100%;
   height: auto !important;
   height: 100%;
   margin: 0 auto -4em;
 }
-div.background {
+#main {
+  overflow:auto;
+  padding-bottom: 150px;
+}  /* must be same height as the footer */
+
+div#header a{
+  color: #444;
+  font-size: 15px;
+  text-decoration: none;
+  font-style: bold;
+}
+div#header a:hover;{
+  color: #444;
+  font-size: 15px;
+  text-decoration: underline;
+  font-style: bold;
+}	
+div#background {
   background-color:#FFF;
   display: block;
   width: 50em;
@@ -94,17 +99,19 @@ div.blocktext {
   width: 50em;
   text-align: left;
 }
-div.footer {
+div#footer {
   text-align:right;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
   background: #444;
   color: white;
-  font-size: 8px;
+  font-size: 9px;
   font-family: Verdana, Arial, sans-serif;
   padding: 5px;
-}	
-div.footer, .push {
-  height: 4em;
+  position: relative;	
+  margin-top: -150px; /* negative value of footer height */
+  height: 150px;
+  clear:both;
+}
 }
