@@ -84,7 +84,7 @@ div#header li a{
   font-style: bold;
 }
 div#header li a:hover{
-  color: #444;
+  color: #666;
   text-decoration: underline;
   font-style: bold;
 }	
