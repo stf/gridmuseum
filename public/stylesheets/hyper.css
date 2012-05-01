@@ -16,6 +16,8 @@ body {
   line-height: 1.5; 
   font-size: 90%;
   min-height: 100%;
+  background-image: url(/images/gradient.png);
+  background-repeat: repeat-x;
 }	
 h1 {
   font-size: 20px;
@@ -56,6 +58,7 @@ div#wrapper {
   min-height: 100%;
   height: auto !important;
   height: 100%;
+
 }
 div#background {
   background-color:#FFF;
@@ -66,20 +69,22 @@ div#background {
   margin-right: auto;
   padding-left: 40px;
   padding-right: 40px;
-  padding-bottom: 20px;
-}  /* must be same height as the footer */
+  padding-bottom: 30px;  /* must be same height as the footer */
+
+}
 div#header {
   padding: 20px;
+  padding-top: 35px;
+  text-align: center;
 }
 div#header li a{
-  color: #444;
-  font-size: 15px;
+  font-size: 17px;
+  color: #888;
   text-decoration: none;
   font-style: bold;
 }
 div#header li a:hover{
   color: #444;
-  font-size: 15px;
   text-decoration: underline;
   font-style: bold;
 }	
