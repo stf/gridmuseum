@@ -68,14 +68,16 @@ div#background {
   padding-right: 40px;
   padding-bottom: 20px;
 }  /* must be same height as the footer */
-
-div#header a{
+div#header {
+  padding: 5px;
+}
+div#header li a{
   color: #444;
   font-size: 15px;
   text-decoration: none;
   font-style: bold;
 }
-div#header a:hover;{
+div#header li a:hover;{
   color: #444;
   font-size: 15px;
   text-decoration: underline;
