@@ -15,7 +15,6 @@ body {
   background-color:#ececec;
   line-height: 1.5; 
   font-size: 90%;
-  height: 100%;
   min-height: 100%;
 }	
 h1 {
@@ -52,16 +51,6 @@ li
 }
 a.hover {	
   text-decoration: underline;
-}
-img.picture {
-  display: block;
-  margin-left: auto;
-  margin-right: auto 
-}
-img.logo_sm {
-  display: block;
-  margin-right: auto 
-
 }
 div#wrapper {
   min-height: 100%;
@@ -108,9 +97,17 @@ div#footer {
   color: white;
   font-size: 9px;
   font-family: Verdana, Arial, sans-serif;
-  padding: 5px;
   position: relative;	
-  margin-top: -20px; /* negative value of footer height */
-  height: 20px;
+  margin-top: -30px; /* negative value of footer height */
+  height: 30px;
   clear:both;
+}
+img.picture {
+  display: block;
+  margin-left: auto;
+  margin-right: auto 
+}
+img.logo_sm {
+  display: block;
+  margin-right: auto 
 }
